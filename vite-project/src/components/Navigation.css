@@ -1,0 +1,26 @@
+/* Navigation.css */
+.nav-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    gap: 20px;             /* Space between links */
+    margin-top: 20px;      /* Add some top margin */
+  }
+  
+  .nav-link {
+    color: #bb86fc;        /* Uniform color for all links */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #3700b3;
+  }
+  
+  /* Optional: style for the active link */
+  .nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #bb86fc;
+  }
+  

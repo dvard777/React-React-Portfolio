@@ -1,0 +1,13 @@
+/* Header.css */
+.header {
+    text-align: center;     /* Centers the text horizontally */
+    background-color: #333; /* A dark background for contrast */
+    padding: 1rem;
+  }
+  
+  .header h1 {
+    color: #fff;            /* White font color */
+    margin: 0;              /* Remove default margins */
+    font-size: 2rem;        /* Adjust the size as needed */
+  }
+  
